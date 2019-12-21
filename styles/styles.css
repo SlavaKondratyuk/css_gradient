@@ -1,0 +1,34 @@
+body{
+    background-image: url("https://www.games-workshop.com/resources/touts/2019-11-09//XM-Welcome-To-40k-2019-10-12-Portal-All-bm.jpg");
+    background-repeat: no-repeat;
+}
+
+.nav_menu{
+    list-style: none;
+    margin: 30px 0 0 0;
+    padding: 20px;
+    background-color: rgba(255,255,255, 0.5);
+    font-size: 25px;
+}
+.nav_menu li{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.third_nav_element::after{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content: "\f007";
+    position: absolute;
+    left: 563px;
+    top: 50px;
+}
+
+.forth_nav_element::before{
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    content:"d";
+    position: relative;
+    top: 0;
+    right: 0;
+}
